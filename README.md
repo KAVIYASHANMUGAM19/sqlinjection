@@ -24,30 +24,30 @@ Open terminal and try execute some kali linux commands
 SQL Injection is a sort of infusion assault that makes it conceivable to execute malicious SQL statements. These statements control a database server behind a web application. Assailants can utilize SQL Injection vulnerabilities to sidestep application safety efforts. They can circumvent authentication and authorization of a page or web application and recover the content of the whole SQL database. 
 Identify IP address using ifconfig in Metasploitable2
 ## OUTPUT
-![alt text](<image1.png>)
+![alt text](<sql1.png>)
 
 Use the above ip address to access the apache webserver of Metasploitable2 from kali/parrot linux. In Kali Linux use the ip address in a web browser.
 ##  OUTPUT
 
-![alt text](<image2.png>)
+![alt text](<sql2.png>)
 Select Multidae from the menu listed as shown above. The page is displayed as below:
 ##  OUTPUT
 
-![alt text](<image3.png>)
+![alt text](<sql3.png>)
 Click on the menu Login/Register and register for an account
 ##  OUTPUT
 
-![alt text](<image4.png>)
+![alt text](<sql4.png>)
 
 Click on the link “Please register here”
 ##  OUTPUT
 
-![alt text](<Screenshot 2025-10-30 085452.png>)
+![alt text](<sql5.png>)
 
 Click on “Create Account” to display the following page:
 ##  OUTPUT
 
-![alt text](<Screenshot 2025-10-30 085452.png>)
+![alt text](<sql6.png>)
 
 The login structure we will use in our examples is straightforward. It contains two input fields (username and password), which are both vulnerable. The back-end content creates a query to approve the username and secret key given by the client. Here is an outline of the page rationale:
 
@@ -56,12 +56,12 @@ The login structure we will use in our examples is straightforward. It contains 
  For the username put “ganesh” or “anything” and for the password put (anything’ or ‘1’=’1) or (admin’ or ‘1’=’1) then try to log in, and you’ll be presented with an admin login page.
 ##  OUTPUT
 
-![alt text](<Screenshot 2025-10-30 091707.png>)
+![alt text](<sql7.png>)
 
 Click “Login”. The logged in page will show as below:
 ##  OUTPUT
 
-![alt text](<Screenshot 2025-10-30 091720.png>)
+![alt text](<sql8.png>)
 
 If error faced in registration follow the following steps in metasploitable 2:
 
