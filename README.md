@@ -33,7 +33,7 @@ Use the above ip address to access the apache webserver of Metasploitable2 from 
 Select Multidae from the menu listed as shown above. The page is displayed as below:
 ##  OUTPUT
 
-![output](<sql/image3.png)
+![output](<sql/image9.png)
 Click on the menu Login/Register and register for an account
 ##  OUTPUT
 
